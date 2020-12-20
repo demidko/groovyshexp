@@ -1,13 +1,13 @@
 package com.farpost.groovyshexp;
 
-import org.springframework.boot.SpringApplication;
+import static org.springframework.boot.SpringApplication.run;
+
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class GroovyshexpApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(GroovyshexpApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    run(GroovyshexpApplication.class, args);
+  }
 }
